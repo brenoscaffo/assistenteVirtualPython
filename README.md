@@ -86,15 +86,15 @@ Windows
 pip install -r requirements.txt
 ```
 
-### 4. Configure a variável de ambiente
+### 4. Criação da API Key do Groq
 
-Crie um arquivo chamado `.env` na raiz do projeto.
+Precisamos criar um perfil no Groq, uma empresa de tecnologia de Inteligência Artificial, acesse o site da [Groq](https://groq.com/) e entre na aba "Developers" e clique no ícone de "Free API Key".
 
-Exemplo:
+Siga as instruções e crie o perfil, agora iremos produzir a nova chave da API. 
 
-```env
-GROQ_API_KEY=sua_chave_da_api
-```
+Clique no botão "Create API Key", dê um nome para essa chave.
+
+Pronto! Temos nosso acesso a API que irá processar as dúvidas que serão enviadas ao assistente de IA.
 
 ---
 
